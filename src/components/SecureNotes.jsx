@@ -27,7 +27,7 @@ export default function SecureNotes() {
     setCopied(false)
   }
 
-  const shortUrl = `https://college-project-olive-rho.vercel.app/`
+  const shortUrl = `${window.location.origin}/secure/${noteId}`
 
   const handleCopy = async () => {
     try {
