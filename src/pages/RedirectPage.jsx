@@ -13,7 +13,7 @@ export default function RedirectPage() {
       const docSnap = await getDoc(docRef)
       if (docSnap.exists()) {
         const { original } = docSnap.data()
-        window.location.href = original // ✅ redirect
+        window.location.href = original 
       } else {
         alert('Invalid or expired short link.')
       }
