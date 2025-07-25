@@ -27,7 +27,7 @@ export default function SecureNotes() {
     setCopied(false)
   }
 
-  const shortUrl = `${window.location.origin}/secure/${noteId}`
+  const shortUrl = `${window.location.origin}/RedirectPage/${noteId}`
 
   const handleCopy = async () => {
     try {
