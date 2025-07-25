@@ -2,7 +2,7 @@ import { useEffect } from 'react'
 import { useParams } from 'react-router-dom'
 import { db } from '../firebase/config'
 import { doc, getDoc } from 'firebase/firestore'
-import Loader from './components/Loader'
+import Loader from '../components/Loader'
 
 export default function RedirectPage() {
   const { slug } = useParams()
